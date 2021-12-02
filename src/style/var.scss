@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@100;400;500;600;700&display=swap');
+
+// fonts
+$zilla: 'Zilla Slab', serif;
+
+// colors
+$topbar: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$main: rgb(255, 140, 0);
+
+// media sizes
+
+$width: 768px;
+$tablet: 860px;
+$small: 400px;
+
+@mixin mobile {
+   @media (max-width: #{$width}) {
+      @content;
+   }
+}
+
+@mixin tablet {
+   @media (max-width: #{$tablet}) {
+      @content;
+   }
+}
+
+@mixin small {
+   @media (max-width: #{$small}) {
+      @content;
+   }
+}
+
+
