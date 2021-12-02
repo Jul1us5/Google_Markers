@@ -1,4 +1,5 @@
-# Google Markers http://markers.jul1u5.lt/ 
+# Google Markers
+http://markers.jul1u5.lt/ 
 Using React create app where you can put your Marker on Google maps using Google maps api key. 
 You can create your own Markers list, and delete it. 
 
